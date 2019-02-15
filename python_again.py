@@ -507,11 +507,5 @@ class c2wUdpChatClientProtocol(DatagramProtocol):
                      print('user envoyant le message trouvé avec id:',str(user[0]),str(user[1]))
                      
                      self.clientProxy.chatMessageReceivedONE(user[1], message.decode('utf-8')) 
-             
-            
-             
-       
-        
-            
-     
         pass
+## By Kwionda Jean Felix
